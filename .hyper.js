@@ -9,7 +9,7 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 20,
+    fontSize: 18,
 
     // font family with optional fallbacks
     fontFamily: '"Ricty", "Source Code Pro for Powerline", "SourceCodePro+Powerline+Awesome Regular", "nerd-fonts", "DejaVu Sans Mono", "Lucida Console", monospace, "FontAwesome"',
