@@ -1,4 +1,4 @@
-"indents
+"indent
 set expandtab
 set tabstop=2
 set shiftwidth=2
@@ -6,6 +6,9 @@ set softtabstop=2
 set autoindent
 set smartindent
 set list listchars=tab:\-\>
+
+"インデントで折りたたみ
+set foldmethod=indent
 
 "settings
 set fenc=uft-8

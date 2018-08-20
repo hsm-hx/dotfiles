@@ -3,6 +3,11 @@ export LANG="en_US.utf8"
 alias ls="colorls"
 alias pbcopy="xsel --clipboard --input"
 alias g++="g++ -Wall"
+alias vivaldi="/opt/vivaldi/vivaldi"
+
+# Rails-new
+export RAILSNEW=/home/hsm-hx/programming/rails-new
+alias rails-new="python $RAILSNEW/rails-new.py"
 
 # Add environment variable COCOS_X_ROOT for cocos2d-x
 export COCOS_X_ROOT="/opt"
