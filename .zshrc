@@ -3,7 +3,7 @@ export LANG="en_US.utf8"
 alias ls="colorls"
 alias pbcopy="xsel --clipboard --input"
 alias g++="g++ -Wall"
-alias vivaldi="/opt/vivaldi/vivaldi"
+alias shutdown="shutdown -h now"
 
 # Rails-new
 export RAILSNEW=/home/hsm-hx/programming/rails-new
