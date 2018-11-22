@@ -11,7 +11,7 @@ set list listchars=tab:\-\>
 set foldmethod=indent
 
 "settings
-set fenc=uft-8
+set fenc=utf-8
 set nowritebackup
 set nobackup
 set noswapfile
