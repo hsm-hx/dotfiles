@@ -3,6 +3,7 @@ alias ls="colorls"
 alias pbcopy="xsel --clipboard --input"
 alias g++="g++ -Wall"
 alias shutdown="shutdown -h now"
+alias vim="nvim"
 
 # Rails-new
 alias rails-new="python $RAILSNEW/rails-new.py"
