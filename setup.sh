@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-DOT_FILES=(.zshrc .zshenv .hyper.js .vimrc)
+DOT_FILES=(.zshrc .hyper.js .vimrc)
 
 for file in ${DOT_FILES[@]}
 do
