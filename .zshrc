@@ -5,8 +5,9 @@ alias g++="g++ -Wall"
 alias shutdown="shutdown -h now"
 alias vim="nvim"
 
-# Rails-new
-alias rails-new="python $RAILSNEW/rails-new.py"
+# rbenv
+export PATH=$HOME/.rbenv/bin:$PATH
+eval "$(rbenv init -)"
 
 # zplug
 source /usr/share/zsh/scripts/zplug/init.zsh
