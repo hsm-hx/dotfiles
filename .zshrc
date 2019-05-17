@@ -9,6 +9,9 @@ alias vim="nvim"
 export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init -)"
 
+# laravel
+export PATH=$HOME/.config/composer/vendor/bin:$PATH
+
 # zplug
 source /usr/share/zsh/scripts/zplug/init.zsh
 
