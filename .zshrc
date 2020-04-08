@@ -13,7 +13,8 @@ eval "$(rbenv init -)"
 export PATH=$HOME/.config/composer/vendor/bin:$PATH
 
 # zplug
-source /usr/share/zsh/scripts/zplug/init.zsh
+export ZPLUG_HOME=/usr/local/opt/zplug
+source $ZPLUG_HOME/init.zsh
 
 # zplug-definission
 zplug 'zsh-users/zsh-autosuggestions'

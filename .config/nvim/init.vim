@@ -1,3 +1,5 @@
+colorscheme iceberg
+
 "indent
 set expandtab
 set tabstop=2
