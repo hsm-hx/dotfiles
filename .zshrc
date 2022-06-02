@@ -4,8 +4,11 @@ alias shutdown="shutdown -h now"
 alias vim="nvim"
 
 # rbenv
-export PATH=$HOME/.rbenv/bin:$PATH
-eval "$(rbenv init -)"
+rbenv &> /dev/null
+if [ $? -eq 0 ]; then
+  export PATH=$HOME/.rbenv/bin:$PATH
+  eval "$(rbenv init -)"
+fi
 
 # zplug
 export ZPLUG_HOME=/usr/local/opt/zplug
