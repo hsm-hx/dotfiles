@@ -1,5 +1,3 @@
-# Created by newuser for 5.4.2
-alias ls="colorls"
 alias pbcopy="xsel --clipboard --input"
 alias g++="g++ -Wall"
 alias shutdown="shutdown -h now"
@@ -8,9 +6,6 @@ alias vim="nvim"
 # rbenv
 export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init -)"
-
-# laravel
-export PATH=$HOME/.config/composer/vendor/bin:$PATH
 
 # zplug
 export ZPLUG_HOME=/usr/local/opt/zplug
