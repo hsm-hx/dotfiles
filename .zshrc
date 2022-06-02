@@ -15,11 +15,7 @@ export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
 # zplug-definission
-zplug 'zsh-users/zsh-autosuggestions'
-zplug 'zsh-users/zsh-completions'
-zplug 'zsh-users/zsh-syntax-highlighting'
 zplug 'bhilburn/powerlevel9k', use:powerlevel9k.zsh-theme
-zplug 'b4b4r07/enhancd', use:init.sh
 
 # zplug-install
 if ! zplug check --verbose; then
