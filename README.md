@@ -1,0 +1,4 @@
+### Requires
+
+- zplug
+- neovim

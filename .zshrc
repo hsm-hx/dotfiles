@@ -1,5 +1,3 @@
-# Created by newuser for 5.4.2
-alias ls="colorls"
 alias pbcopy="xsel --clipboard --input"
 alias g++="g++ -Wall"
 alias shutdown="shutdown -h now"
@@ -14,8 +12,11 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # rbenv
-export PATH=$HOME/.rbenv/bin:$PATH
-eval "$(rbenv init -)"
+if [ $? -eq 0 ]; then
+  export PATH=$HOME/.rbenv/bin:$PATH
+  eval "$(rbenv init -)"
+fi
+rbenv &> /dev/null
 
 # direnv
 export EDITOR=nvim
@@ -26,11 +27,7 @@ export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
 # zplug-definission
-zplug 'zsh-users/zsh-autosuggestions'
-zplug 'zsh-users/zsh-completions'
-zplug 'zsh-users/zsh-syntax-highlighting'
 zplug 'bhilburn/powerlevel9k', use:powerlevel9k.zsh-theme
-zplug 'b4b4r07/enhancd', use:init.sh
 
 # zplug-install
 if ! zplug check --verbose; then
