@@ -10,6 +10,9 @@ ln -sfnv "$DOTFILES_DIR/.zshrc" "$HOME/.zshrc"
 mkdir -p "$HOME/.config"
 ln -sfnv "$DOTFILES_DIR/.config/nvim" "$HOME/.config/nvim"
 
+# Symlink .config/ghostty
+ln -sfnv "$DOTFILES_DIR/.config/ghostty" "$HOME/.config/ghostty"
+
 # Symlink .claude (settings & skills)
 mkdir -p "$HOME/.claude"
 ln -sfnv "$DOTFILES_DIR/.claude/settings.json" "$HOME/.claude/settings.json"
