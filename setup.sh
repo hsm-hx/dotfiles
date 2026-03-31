@@ -10,4 +10,9 @@ ln -sfnv "$DOTFILES_DIR/.zshrc" "$HOME/.zshrc"
 mkdir -p "$HOME/.config"
 ln -sfnv "$DOTFILES_DIR/.config/nvim" "$HOME/.config/nvim"
 
+# Symlink .claude (settings & skills)
+mkdir -p "$HOME/.claude"
+ln -sfnv "$DOTFILES_DIR/.claude/settings.json" "$HOME/.claude/settings.json"
+ln -sfnv "$DOTFILES_DIR/.claude/skills" "$HOME/.claude/skills"
+
 echo "Done. Restart your shell or run: source ~/.zshrc"

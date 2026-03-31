@@ -6,6 +6,7 @@ macOS (Apple Silicon) 用の個人設定ファイル。
 
 - `.zshrc` — zsh 設定 (powerlevel10k, zsh-completions, zsh-autosuggestions)
 - `.config/nvim/init.lua` — Neovim 設定 (lazy.nvim, iceberg, treesitter, lualine)
+- `.claude/` — Claude Code 設定 (settings.json, カスタムスキル)
 
 ### 前提
 
